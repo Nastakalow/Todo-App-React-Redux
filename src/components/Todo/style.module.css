@@ -1,0 +1,119 @@
+body {
+  background-color: #24cb92;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  padding: 16px;
+  margin: 50px auto;
+  width: 35%;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+input {
+  font-size: 14px;
+  outline: none;
+  border-radius: 10px;
+  border: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+}
+
+.title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.addTodoWrapper {
+  display: flex;
+  margin-bottom: 16px;
+  gap: 10px;
+  border: 2px solid #000;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.addInput {
+  flex: 6;
+  padding: 12px;
+}
+
+.addButton {
+  flex: 1;
+  border: none;
+  border-left: 2px solid #000;
+  background-color: #157957;
+  color: #fff;
+  font-size: 16px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.todoItem,
+.editItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  margin-bottom: 16px;
+  border: 1px solid #000;
+  border-radius: 12px;
+}
+
+.todoText {
+  font-size: 18px;
+}
+
+.completeBtn,
+.editBtn,
+.deleteBtn,
+.saveBtn,
+.cancelBtn {
+  margin-left: 8px;
+  background-color: #157957;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  padding: 8px;
+  border-radius: 12px;
+  width: 88px;
+}
+
+.controlWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.controlItem {
+  font-size: 8px;
+  color: #000;
+  font-size: 16px;
+}
+
+.editInput {
+  width: 45%;
+  padding: 8px;
+  border: 1px solid #780000;
+}
+
+.editItemBtnWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.removeComplete {
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+  font-size: 12px;
+}
