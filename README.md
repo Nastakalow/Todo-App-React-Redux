@@ -20,4 +20,4 @@ $ npm start
 
 ## :link: Demo
 
-- <a target="_blank" href="https://todo-app-react-redux-deploy.netlify.app/"> Click Here </a> to see and play by yourself a demo of the game.
+- <a target="_blank" href="https://todo-app-react-redux-deploy.netlify.app/"> Click Here </a> to see a demo of the app.
